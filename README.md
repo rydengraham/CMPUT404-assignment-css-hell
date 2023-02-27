@@ -39,3 +39,5 @@ languages.png: custom collage (by me) of the following images:
 	- Python-logo-notext.svg.png: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg
 	- React-icon.svg.png: https://commons.wikimedia.org/wiki/File:React-icon.svg
 	- Vue.js_Logo_2.svg.png: https://commons.wikimedia.org/wiki/File:Vue.js_Logo_2.svg
+
+Extra: The ugly page has some animations commented out, use with caution
