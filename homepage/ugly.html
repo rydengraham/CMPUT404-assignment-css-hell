@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <div class="outer-box">
+            <div class="header-bar"></div>
+            <div class="title-bar">
+                <div class="title-container">
+                    <div class="title">Ryden Graham</div>
+                    <div class="subtitle">Fifth year software engineering student</div>
+                </div>  
+            </div>
+            <div class="spacer">
+                <div class="menu-label" title="Already on this page">Home</div>
+                <div class="menu-label" title="This page does not exist">Projects</div>
+                <a href="https://github.com/rydengraham" class="link">
+                    <div class="menu-label" title="This link actually works!">Github</div>
+                </a>
+                <div class="menu-label" title="This page does not exist">Contact</div>
+            </div>
+            <div class="menu-spacer"></div>
+            <div class="body">
+                <div class="content">
+                    <div class="info-block">
+                        <div class="pfp"></div>  
+                        <div class="text-block">
+                            <div class="subtitle">Who Am I</div>
+                            <div>Passionate programmer that loves finding simple solutions to complex problems</div>
+                            <br>
+                            <div>Avid gamer who loves analyzing strategies, theorizing optimal play, and watching myself improve over time</div>
+                            <br>
+                            <div>Lifelong learner always interested in learning something new</div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <div class="text-block wide">
+                            <div class="subtitle">Professional History/Work Experience</div>
+                            <div>8 months experience interning as a fullstack developer at Intelliwave Technologies, working on Sitesense (Inventory management software). Signed to continue working at Intelliwave after graduation</div>
+                            <br>
+                            <div>8 months experience interning as a frontend developer at Darkhorse Analytics, creating data visualization in React JS</div>
+                            <br>
+                            <div>4 months experience as a research assistant at the University of Alberta at the Centre for Smart Transportation (CST)</div>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <img class="content-pic" src="./languages.png"/>
+                        <div class="text-block">
+                            <div class="subtitle">What I Have To Offer</div>
+                            <div>Experienced with Python, C#, SQL, JavaScript, Vue, React, and other languages</div>
+                            <br>
+                            <div>I am very detail-oriented, always double check my work, and do my best to not go overboard and waste time</div>
+                            <br>
+                            <div>I love helping other programmers by listening to their problems and providing helpful suggestions</div>
+                            <br>
+                            <div>I'm not afraid to do the hard part of a project, and love the satisfaction of making something meaningful or completing a difficult task</div>
+                            <br>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <div class="inner-sidebar">
+                        <div class="sidebar-title">More About Me</div>
+                        <div class="sidebar-label">I am a fan of OOP and strongly typed languages</div>
+                        <div class="sidebar-label">I am a fan of OOP and strongly typed languages</div>
+                        <div class="sidebar-label">I like working in teams where everyone respects one another and can openly ask questions</div>
+                        <div class="sidebar-label">I am very introverted, but have been improving my commincation skills and try to speak up actively at work</div>
+                        <div class="sidebar-label">I run regularly, and usually treadmill 5 kilometres every other day</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bar"></div>
+        </div>
+    </body>
+</html>
+
+<style>
+@keyframes cancerleft {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-10em); }
+    40% { transform: rotate(3.142rad); }
+    60% { transform: translateX(10em); }
+    80% { transform: rotate(-3.142rad); }
+}
+@keyframes cancerright {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(10em); }
+    40% { transform: rotate(-3.142rad); }
+    60% { transform: translateX(-10em); }
+    80% { transform: rotate(3.142rad); }
+}
+@keyframes spin {
+    0% { transform: rotate(3.142rad); }
+    25% { transform: rotate(-3.142rad); }
+    50% { transform: rotate(3.142rad); }
+    75% { transform: rotate(-3.142rad); }
+}
+@keyframes cw {
+    0% { transform: translateX(5em); }
+    25% { transform: translateY(5em); }
+    50% { transform: translateX(-5em); }
+    75% { transform: translateY(-5em); }
+    100% { transform: translateX(5em); }
+}
+@keyframes ccw {
+    0% { transform: translateX(-5em); }
+    25% { transform: translateY(-5em); }
+    50% { transform: translateX(5em); }
+    75% { transform: translateY(5em); }
+    100% { transform: translateX(-5em); }
+}
+@keyframes translateX {
+    0% { transform: translateX(-80em); }
+    50% { transform: translateX(30em); }
+    100% { transform: translateX(-80em); }
+}
+@keyframes translateY {
+    0% { transform: translateY(-30em); }
+    50% { transform: translateY(30em); }
+    100% { transform: translateY(-30em); }
+}
+@keyframes skewPulseInvert {
+    0% { transform: skew(15deg, 15deg); background-color: red; filter: invert(0); }
+    25% { transform: skew(-15deg, -15deg); background-color: blue; filter: invert(0.5); }
+    50% { transform: skew(15deg, 15deg); background-color: yellow; filter: invert(1); }
+    75% { transform: skew(-15deg, -15deg); background-color: green; filter: invert(0.5); }
+    100% { transform: skew(15deg, 15deg); background-color: red; filter: invert(0); }
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    animation: 3s;
+    animation-iteration-count: infinite;
+    animation-name: skewPulseInvert;
+}
+.outer-box {
+    width: 85em;
+    filter: blur(0.1em)
+}
+.header-bar {
+    height: 5em;
+    background-image: url("./Stained_wooden_clapboard_siding.jpg");
+    animation: 2.7s;
+    animation-iteration-count: infinite;
+    animation-name: translateY;
+}
+.title-bar {
+    height: 15em;
+    background: radial-gradient(#5d2298, #608000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 2s;
+    animation-iteration-count: infinite;
+    animation-name: cancerleft;
+}
+.title {
+    font-size: 5em;
+    animation: 1s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+}
+.subtitle {
+    font-size: 2em;
+    animation: 1s;
+    animation-iteration-count: infinite;
+    animation-name: cancerright;
+}
+.title-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em
+}
+.pfp {
+    width: 10em;
+    height: 13em;
+    border-radius: 6em;
+    background-image: url("./ryden.JPG");
+    background-position: 50% 22%;
+    background-size: 220%;
+    animation: 1.3s;
+    animation-iteration-count: infinite;
+    animation-name: ccw;
+}
+.spacer {
+    height: 3em;
+    background-color: rgb(89, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0em 1em 1em black;
+    z-index: 10;
+}
+.menu-label {
+    font-size: 2em;
+    color: white;
+    padding: 0em 1em 0em 1em;
+}
+.menu-label:nth-child(odd) {
+    animation: 1s;
+    animation-iteration-count: infinite;
+    animation-name: cancerright;
+}
+.menu-label:nth-child(even) {
+    animation: 1s;
+    animation-iteration-count: infinite;
+    animation-name: cancerleft;
+}
+.link {
+    text-decoration: none;
+}
+.menu-spacer {
+    height: 0.3em;
+    background-color: #007180;
+    box-shadow: 0em 1em 1em black;
+    z-index: 10;
+}
+.body {
+    height: 55em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    height: 55em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./Parallax-scroll-example.gif');
+    animation: 10s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+}
+.info-block {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 1em 0em 1em 0em;
+}
+.text-block {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0em 2em 0em 2em;
+    width: 30em;
+}
+.text-block:nth-child(odd) {
+    animation: 1.7s;
+    animation-iteration-count: infinite;
+    animation-name: cancerleft;
+}
+.text-block:nth-child(even) {
+    animation: 1.7s;
+    animation-iteration-count: infinite;
+    animation-name: cancerright;
+}
+.wide {
+    width: 45em;
+}
+.footer-bar {
+    height: 3em;
+    background-image: url("./Stained_wooden_clapboard_siding.jpg");
+    animation: 2.7s;
+    animation-iteration-count: infinite;
+    animation-name: translateY;
+}
+.content-pic {
+    width: 13em;
+    height: 15em;
+    border-radius: 2em;
+    background-position: 50% 22%;
+    background-size: 120%;
+    animation: 1.3s;
+    animation-iteration-count: infinite;
+    animation-name: cw;
+}
+.sidebar {
+    height: 55em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./Rotating_earth_\(large\)_transparent.gif');
+    animation: 10s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+}
+.inner-sidebar {
+    height: 98%;
+    width: 96%;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    animation: 3s;
+    animation-iteration-count: infinite;
+    animation-name: translateX;
+}
+.sidebar-title {
+    font-size: 3em;
+    color: white;
+    padding: 1em 0em 1em 0em;
+    animation: 4s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+}
+.sidebar-label {
+    font-size: 1.4em;
+    color: white;
+    padding: 0em 1em 1em 1em;
+}
+.sidebar-label:nth-child(odd) {
+    text-align: end;
+    animation: 5s;
+    animation-iteration-count: infinite;
+    animation-name: cw;
+}
+.sidebar-label:nth-child(even) {
+    text-align: start;
+    animation: 5s;
+    animation-iteration-count: infinite;
+    animation-name: ccw;
+}
+</style>

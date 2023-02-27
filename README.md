@@ -21,4 +21,21 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Modified 2023 by Ryden Graham
 
+Changes to Gutenburg files:
+- linked style.css in all three
+- added some individual body css at end of style sections to center the pages properly
+(Dubliners needed to get translated opposite to the other two)
+
+
+Image credits:
+Stained_wooden_clapboard_siding: https://commons.wikimedia.org/wiki/File:Stained_wooden_clapboard_siding.jpg
+Parallax-scroll-example.gif: https://commons.wikimedia.org/wiki/File:Parallax-scroll-example.gif
+Rotating_earth_(large)_transparent.gif: https://commons.wikimedia.org/wiki/File:Rotating_earth_(large)_transparent.gif
+languages.png: custom collage (by me) of the following images:
+	- Csharp_Logo.png: https://commons.wikimedia.org/wiki/File:Csharp_Logo.png
+	- Javascript_Logo.png: https://commons.wikimedia.org/wiki/File:Javascript_Logo.png
+	- Python-logo-notext.svg.png: https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg
+	- React-icon.svg.png: https://commons.wikimedia.org/wiki/File:React-icon.svg
+	- Vue.js_Logo_2.svg.png: https://commons.wikimedia.org/wiki/File:Vue.js_Logo_2.svg
